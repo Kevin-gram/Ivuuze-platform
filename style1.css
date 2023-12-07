@@ -64,29 +64,23 @@ body {
   animation: slideshow 20s infinite;
   opacity: 0.8;
 }
-#page-1{
-  background: linear-gradient(to top right, transparent 90%, transparent 100%), url("images/syringe-1884784_1920.jpg");
+#page-1 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 100vh; /* Ensure the background covers the entire viewport height */
-  margin: 0;
-  }
-  
+  height: 100vh;
+}
 
-.section-2{
+.section-2 {
   padding-top: 100px;
 }
 
-/*@keyframes slideshow {
-    0% { background-image: url("images/syringe-1884784_1920.jpg");}
-    50% { background-image: url("images/blood-pressure-3312513_1920.png"); }
-    50% { background-image: url("images/istockphoto-1386988615-612x612.jpg"); }
-    75% { background-image: url("images/istockphoto-1395533815-612x612.jpg"); }
-    100% { background-image: url("images/istockphoto-1400388878-612x612.jpg"); }
-    
+@keyframes slideshow {
+  0%, 100% { background-image: url("images/syringe-1884784_1920.jpg"); }
+  25% { background-image: url("images/blood-pressure-3312513_1920.png"); }
+  50% { background-image: url("images/istockphoto-1386988615-612x612.jpg"); }
+  75% { background-image: url("images/istockphoto-1395533815-612x612.jpg"); }
 }
-*/
 .heading{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bolder;
