@@ -1,5 +1,146 @@
 *{padding:5px;
+<<<<<<< HEAD
   margin: 0;
+=======
+margin: 0;
+box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+.nav{
+    background-color:rgba(52, 152, 219, 0);
+    color: black;
+    padding: 5px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    opacity: inherit;
+background-image: src="images/";
+font-weight: bolder;
+}
+.menu-bar{
+    display: none;
+}
+.nav-photo{
+  padding: 0;
+ height: 7vh;
+ width: 9vh;
+ border-radius: 50%;
+}
+.box-image{
+  padding: 0;
+  height: 15vh; /* Adjust the height to increase the size */
+  width: 17vh;  /* Adjust the width to increase the size */
+  border-radius: 50%; /* Make it a full circle */
+}
+.right-nav{
+    padding-top:5px ;
+    display: flex;
+    flex-direction:row ;
+    gap: 5px;
+    width: 30%;
+    text-decoration: none;
+    gap: 5px;
+  
+}
+.right-nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-shadow: 2px 2px 5px #4c66af;
+}
+.right-nav a:hover {
+    text-decoration: none;
+    color: rgb(7, 132, 182);
+    font-weight: bold;
+    
+}
+
+body {
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  animation: slideshow 20s infinite;
+  opacity: 0.8;
+}
+#page-1 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.section-2 {
+  padding-top: 100px;
+}
+
+@keyframes slideshow {
+  0%, 100% { background-image: url("images/syringe-1884784_1920.jpg"); }
+  25% { background-image: url("images/blood-pressure-3312513_1920.png"); }
+  50% { background-image: url("images/istockphoto-1386988615-612x612.jpg"); }
+  75% { background-image: url("images/istockphoto-1395533815-612x612.jpg"); }
+}
+.heading{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 50px;
+    color: rgb(1, 99, 138);
+    text-shadow: 2px 2px 5px #4c66af;
+}
+.discri{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  height: 40vh;
+  margin: 0;
+}
+.discription{
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 30px;
+    width: auto;
+    color: rgb(1, 99, 138);
+    box-shadow:#4CAF50;
+    border-radius: 5px;
+    background-color: rgb(240, 248, 255);
+    width: 50%;
+  
+}
+.textbox-container {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+
+label {
+  font-size: 18px;
+  margin-bottom: 8px;
+  display: block;
+}
+.locations{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  font-style: italic;
+  font-size: 15px;
+  width: auto;
+  color: rgb(1, 99, 138);
+  background-color: whitesmoke;
+  width: 20%;
+}
+
+select {
+  width: 30%;
+  padding: 12px;
+  margin-bottom: 16px;
+>>>>>>> 4f831b363ed6804a9bd9c9f57f04b034615a18b5
   box-sizing: border-box;
   }
   html{
