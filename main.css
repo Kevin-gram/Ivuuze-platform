@@ -121,14 +121,12 @@ body {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: bolder;
   font-style: italic;
-  font-size: 30px;
-  width: auto;
+  font-size: 10px;
   color: black !;
   box-shadow:#4CAF50;
   border-radius: 40px;
   color: rgb(240, 248, 255);
   width: 100%;
-  border-right: dotted black;
 
 }
 .textbox-container {
@@ -217,7 +215,7 @@ select option:focus {
 }
 .container{
   padding-top: 5px;
-  display: grid;;
+  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 background-color: #439946c0;
   gap: 10px;
@@ -245,14 +243,14 @@ background-color: #439946c0;
  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   
-  gap: 10px;
+  gap: 5px;
   align-items: center;
   padding-left: 5px;
  
  }
  .workers > div {
   background-color: #439946c2;
-  padding: 15px;
+  padding: 10px;
   border-radius: 25px;
 
 }
@@ -412,6 +410,33 @@ footer{
   background-image: url(images/ministry\ of\ healtyh.PNG);
 background-color: #2748a1;
 }
+
+
+
+.menu-bar {
+  display: flex;
+  flex-direction: flex-end;
+  justify-content: space-between;
+  display: none;
+}
+
+.nav-photo {
+  cursor: pointer;
+}
+
+.nav-links {
+  display: none;
+  flex-direction: column;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  font-size: medium;
+  
+}
 @media only screen and (max-width: 1024px) {
     .right-nav {
       display: none;
@@ -425,10 +450,15 @@ background-color: #2748a1;
    width: 8vh; 
    border-radius: 50%;
     }
+    .nav-photo {
+      cursor: pointer;
+      width: 5vh;
+      height: 5vh;
+    }
     .container {
       padding-top: 5px;
       display: grid;
-      width: fit-content;
+    
       grid-template-columns: repeat(2, 1fr); 
       grid-template-rows: repeat(3, auto); 
       
@@ -523,6 +553,18 @@ background-color: #2748a1;
           border-color: #4CAF50;
         
     }
+    .CHW-info{
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-weight: bolder;
+      font-style: italic;
+      font-size: 10px;
+      color: black !;
+      box-shadow:#4CAF50;
+      border-radius: 40px;
+      color: rgb(240, 248, 255);
+      width: 80%;
+  
+    }
   }
   
  @media only screen and (max-width: 768px) {
@@ -536,6 +578,11 @@ background-color: #2748a1;
     .menu-bar {
       display: block;
       padding: 0;   
+    }
+    .nav-photo {
+      cursor: pointer;
+      width: 3vh;
+      height: 5vh;
     }
     .discri{
         display: flex;
@@ -596,7 +643,6 @@ background-color: #2748a1;
     }
    .container{
     padding-top: 10px;
-    width: fit-content;
     }
     .section{
       padding: 10px;
@@ -650,7 +696,7 @@ background-color: #2748a1;
        }
        .workers > div {
         background-color: aliceblue; 
-        padding: 15px;
+        padding: 10px;
         border-radius: 25px;
       
       }
@@ -752,6 +798,15 @@ background-color: #2748a1;
       color: #4c66af;
   }
 
+
+  .nav-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    font-size: small;
+  }
+ }
   /* Extra small screens (smaller phones) */
   @media only screen and (max-width: 480px) {
     .discri{
@@ -772,7 +827,7 @@ background-color: #2748a1;
         padding: 0px !important;
        height: 3vh; 
        width: 5vh; 
-       border-radius: 50%;
+    
       }
       .discription{
           font-family: Georgia, 'Times New Roman', Times, serif;
@@ -824,10 +879,15 @@ background-color: #2748a1;
         margin: 0 auto; 
         color: #4c66af;
     }
-    }
+    
     .container{
     padding-top: 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     }
+    
     .section{
       padding:0px;
       display: flex;
@@ -876,3 +936,4 @@ background-color: #2748a1;
         color: #4c66af;
     }
   }
+  
