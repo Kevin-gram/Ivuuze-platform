@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="login.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="login-container"> 
+    <div class="platform-header">Ivuuze<span class="platform-subtitle">Platform</span></div>
+    <h2>Login</h2>
+    <form id="loginForm" action="">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+
+      <label for="userType">Select User Type:</label>
+      <select id="userType" name="userType" required>
+        <option value="patient">Patient</option>
+        <option value="healthWorker">Community Health Worker</option>
+      </select>
+
+      <button type="button" onclick="submitForm()">Login</button>
+
+      <!-- Add the signup button -->
+      <button type="button" onclick="redirectToSignup()">Signup</button>
+    </form>
+  </div>
+
+  <script>
+    function submitForm() {
+      // Get form data
+      var username = document.getElementById("username").value;
+      var password = document.getElementById("password").value;
+      var userType = document.getElementById("userType").value;
+
+      // Perform form validation here if needed
+
+      // Log form data to the console (replace with actual form submission logic)
+      console.log("Username: " + username);
+      console.log("Password: " + password);
+      console.log("User Type: " + userType);
+
+      // Redirect to index.html after form submission
+      window.location.href = "index.html";
+    }
+
+    // Function to redirect to the signup page
+    function redirectToSignup() {
+      window.location.href = "signup.html";
+    }
+  </script>
+</body>
+</html>
+
