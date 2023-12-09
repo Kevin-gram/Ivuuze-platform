@@ -1,4 +1,4 @@
-                                                                            # Ivuuze-platform
+                                                                        # Ivuuze-platform
 
 
 The idea came about as a result of seeing how Community health workers  (C.H.W.s) work in a condition where, at times, they have patients with not enough drugs ( medications) to help them out, and this is not because the supply is not good but because there are 4 in one village which means one can be overcrowded. At the same time, the other is still packed with packs of drugs, but no one is reaching out, maybe because they can't trace them. Also, regarding the new residence of a community for those who are not estate owners who move according to the conditions of life, we asked ourselves how they trace C.H.W.s in the new neighborhood they are in. All this came to our minds to design a solution that can help C.H.W.s and the community by developing a website-based solution that provides first-hand information about who is seeking help and who is there and equipped with enough drugs to give the basic treatment C.H.W.s can provide.
