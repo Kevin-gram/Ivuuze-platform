@@ -175,23 +175,28 @@ fetch("data.json")
     provinces.innerHTML = arrProvinces.join(" ");
   });
 
-document.addEventListener("DOMContentLoaded", function () {
-  const burgerIcon = document.getElementById("burger-icon");
-  const navLinks = document.querySelector(".nav-links");
-
-  burgerIcon.addEventListener("click", function () {
-    navLinks.style.display =
-      navLinks.style.display === "flex" ? "none" : "flex";
+  document.addEventListener("DOMContentLoaded", function () {
+    const burgerIcon = document.getElementById("burger-icon");
+    const navLinks = document.querySelector(".nav-links");
+    const form = document.querySelector(".your-form-class");
+  
+    burgerIcon.addEventListener("click", function () {
+      if (window.innerWidth < 768) {
+        navLinks.style.display = navLinks.style.display === "flex" ? "none" : "flex";
+        form.style.width = form.style.width === "50%" ? "30%" : "50%"; // Adjust the width as needed
+      }
+    });
+  
+    window.addEventListener("resize", function () {
+      if (window.innerWidth >= 768) {
+        navLinks.style.display = "flex";
+        form.style.width = ""; // Reset the width on larger screens
+      } else {
+        navLinks.style.display = "none";
+      }
+    });
   });
-
-  window.addEventListener("resize", function () {
-    if (window.innerWidth >= 768) {
-      navLinks.style.display = "flex";
-    } else {
-      navLinks.style.display = "none";
-    }
-  });
-});
+  
 
 const image1 = new Image();
 image1.src = "images/1.jpg";

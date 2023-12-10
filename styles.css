@@ -49,13 +49,13 @@ body {
     background-color: #00b336;
   }
   .platform-header {
-    font-weight: bolder;
-    font-size: 50px;
-    color: rgb(1, 99, 138);
+    font-size: 35px;
+    font-weight: bold;
+    color: #007bff;
     text-shadow: 2px 2px 5px #4c66af;
     position: relative;
     padding-bottom: 2px !important;
-    font-family: 'Rubik Bubbles', sans-serif;
+    
   }
   
 
@@ -63,5 +63,5 @@ body {
 
   .platform-subtitle {
     margin-left: 0.5em;
-    color: #999;;
+    color: #999;
   }
