@@ -4,7 +4,10 @@
     margin: 0;
  }
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'REM', sans-serif;
+    font-family: 'Rubik', sans-serif;
     background-color: white;
     margin: 0;
     padding: 0;
