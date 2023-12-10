@@ -190,7 +190,7 @@ fetch("data.json")
     window.addEventListener("resize", function () {
       if (window.innerWidth >= 768) {
         navLinks.style.display = "flex";
-        form.style.width = ""; // Reset the width on larger screens
+        form.style.width = "";
       } else {
         navLinks.style.display = "none";
       }

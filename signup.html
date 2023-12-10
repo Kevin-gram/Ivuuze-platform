@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Signup Page</title>
+  <title>Ivuuze Signup Page</title>
   <link rel="stylesheet" href="signup.css">
 </head>
 <body>
@@ -29,21 +29,19 @@
 
   <script>
     function submitSignupForm() {
-      // Get form data
+      
       var fullName = document.getElementById("fullName").value;
       var email = document.getElementById("email").value;
       var newPassword = document.getElementById("newPassword").value;
       var confirmPassword = document.getElementById("confirmPassword").value;
 
-      // Perform form validation here if needed
-
-      // Log form data to the console (replace with actual form submission logic)
+      
       console.log("Full Name: " + fullName);
       console.log("Email: " + email);
       console.log("Password: " + newPassword);
       console.log("Confirm Password: " + confirmPassword);
 
-      // Redirect to login.html after form submission
+      
       window.location.href = "login.html";
     }
   </script>
